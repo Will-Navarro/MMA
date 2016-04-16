@@ -17,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Módulo de  de Activos", "Index", "Home", New With {.area = ""}, New With {.class = "navbar-brand"})
+                @Html.ActionLink("Módulo de Mantenimiento de Activos", "Index", "Home", New With {.area = ""}, New With {.class = "navbar-brand"})
             </div>
             
             <div class="navbar-collapse collapse">
