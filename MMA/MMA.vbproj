@@ -46,6 +46,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -200,6 +202,22 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201604050620569_A.Designer.vb">
+      <DependentUpon>201604050620569_A.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604050620569_A.vb" />
+    <Compile Include="Migrations\201604050628322_A1.Designer.vb">
+      <DependentUpon>201604050628322_A1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604050628322_A1.vb" />
+    <Compile Include="Migrations\201604050636347_A2.Designer.vb">
+      <DependentUpon>201604050636347_A2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604050636347_A2.vb" />
+    <Compile Include="Migrations\201604052315075_A3.Designer.vb">
+      <DependentUpon>201604052315075_A3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604052315075_A3.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="Models\AccountViewModels.vb" />
     <Compile Include="Models\Activo.vb" />
@@ -231,6 +249,18 @@
     <Compile Include="Startup.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201604050620569_A.resx">
+      <DependentUpon>201604050620569_A.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604050628322_A1.resx">
+      <DependentUpon>201604050628322_A1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604050636347_A2.resx">
+      <DependentUpon>201604050636347_A2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604052315075_A3.resx">
+      <DependentUpon>201604052315075_A3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -352,6 +382,9 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

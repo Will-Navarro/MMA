@@ -1,9 +1,9 @@
 ﻿@ModelType IEnumerable(Of MMA.Models.Proveedor)
 @Code
-    ViewData("Title") = "Proveedores"
+ViewData("Title") = "Index"
 End Code
 
-<h2>Proveedores</h2>
+<h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -16,6 +16,9 @@ End Code
         <th>
             @Html.DisplayNameFor(Function(model) model.MontoMax)
         </th>
+        <th>
+            @Html.DisplayNameFor(Function(model) model.FechaIngreso)
+        </th>
         <th></th>
     </tr>
 
@@ -26,6 +29,9 @@ End Code
         </td>
         <td>
             @Html.DisplayFor(Function(modelItem) item.MontoMax)
+        </td>
+        <td>
+            @Html.DisplayFor(Function(modelItem) item.FechaIngreso)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", New With {.id = item.ProveedorID }) |

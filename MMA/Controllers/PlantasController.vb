@@ -41,7 +41,7 @@ Namespace Controllers
         'more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
-        Function Create(<Bind(Include:="PlantaID,Descripcion,Telefono")> ByVal planta As Planta) As ActionResult
+        Function Create(<Bind(Include:="PlantaID,Descripcion,Telefono,Detalle")> ByVal planta As Planta) As ActionResult
             If ModelState.IsValid Then
                 db.Plantas.Add(planta)
                 db.SaveChanges()
@@ -67,7 +67,7 @@ Namespace Controllers
         'more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
-        Function Edit(<Bind(Include:="PlantaID,Descripcion,Telefono")> ByVal planta As Planta) As ActionResult
+        Function Edit(<Bind(Include:="PlantaID,Descripcion,Telefono,Detalle")> ByVal planta As Planta) As ActionResult
             If ModelState.IsValid Then
                 db.Entry(planta).State = EntityState.Modified
                 db.SaveChanges()

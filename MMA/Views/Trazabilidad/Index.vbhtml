@@ -1,9 +1,9 @@
 ﻿@ModelType IEnumerable(Of MMA.Models.Trazabilidad)
 @Code
-    ViewData("Title") = "Trazabilidad"
+ViewData("Title") = "Index"
 End Code
 
-<h2>Trazabilidad</h2>
+<h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")

@@ -51,9 +51,12 @@ C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\bin\Microsoft.Owin.Security
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.vbprojResolveAssemblyReference.cache
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.Resources.resources
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.vbproj.GenerateResource.Cache
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.dll
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.xml
 C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.pdb
+C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.Migrations.A.resources
+C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.Migrations.A1.resources
+C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.Migrations.A2.resources
+C:\Users\WilliamEduardo\OneDrive\ASP.NET MVC\MMA\MMA\obj\Debug\MMA.Migrations.A3.resources

@@ -1,9 +1,9 @@
 ﻿@ModelType IEnumerable(Of MMA.Models.Planta)
 @Code
-    ViewData("Title") = "Plantas"
+ViewData("Title") = "Index"
 End Code
 
-<h2>Plantas</h2>
+<h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -16,6 +16,9 @@ End Code
         <th>
             @Html.DisplayNameFor(Function(model) model.Telefono)
         </th>
+        <th>
+            @Html.DisplayNameFor(Function(model) model.Detalle)
+        </th>
         <th></th>
     </tr>
 
@@ -26,6 +29,9 @@ End Code
         </td>
         <td>
             @Html.DisplayFor(Function(modelItem) item.Telefono)
+        </td>
+        <td>
+            @Html.DisplayFor(Function(modelItem) item.Detalle)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", New With {.id = item.PlantaID }) |

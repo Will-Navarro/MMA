@@ -25,6 +25,14 @@ End Code
             @Html.DisplayFor(Function(model) model.MontoMax)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(Function(model) model.FechaIngreso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(Function(model) model.FechaIngreso)
+        </dd>
+
     </dl>
 </div>
 <p>

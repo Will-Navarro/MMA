@@ -12,6 +12,9 @@ Namespace Models
         <DataType(DataType.Currency)>
         Public Property MontoMax As Decimal
 
+        <Display(Name:="Fecha de ingreso")>
+        <DataType(DataType.Date)>
+        Public Property FechaIngreso As Date
     End Class
 End Namespace
 

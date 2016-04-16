@@ -25,6 +25,14 @@ End Code
             @Html.DisplayFor(Function(model) model.Telefono)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(Function(model) model.Detalle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(Function(model) model.Detalle)
+        </dd>
+
     </dl>
 </div>
 <p>
